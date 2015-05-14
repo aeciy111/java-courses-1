@@ -70,4 +70,8 @@ public class Calculator {
     public String getResult() {
         return this.result;
     }
+
+    public boolean hasEmptyMemory() {
+        return this.result == null;
+    }
 }
